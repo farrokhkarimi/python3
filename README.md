@@ -8,7 +8,7 @@
 - [Operators](#--Operators)
 - [Decision Making](#--Decision-Making)
 - [Loops](#--Loops)
-- [Data & Times](#--Date-&-Times)
+- [Data & Times](#--Date-and-Times)
 - [Functions](#--Functions)
 - [Files](#--Files)
 - [Exception Handling](#--Exception-Handling)
@@ -68,6 +68,7 @@ a = A = b = 1
 x, y, z = 10, 20, 'Salam!'
 print(z)
 ```
+Result:
 ```
 Salam!
 ```
@@ -87,7 +88,7 @@ a = input('Please insert a number:')
 
 # - Data Types
 
-### Numbers:
+## Numbers:
 ```python
 n = 1
 h = 0x1F # Hexa-decimal
@@ -96,7 +97,7 @@ del(n) # delete n variable
 print(n) # NameError: name 'n' is not defined
 ```
 Result:
-```python
+```
 31 # Decimal
 ---------------------------------------------------------------------------
 NameError                                 Traceback (most recent call last)
@@ -108,7 +109,7 @@ NameError                                 Traceback (most recent call last)
 NameError: name 'n' is not defined
 ```
 
-### String:
+## String:
 ```python
 s = 'Ali'
 print(s[1]) # return the second letter (l)
@@ -142,7 +143,7 @@ Result:
 2
 ```
 
-- **.split(sep=None, maxsplit=-1) -> list of strings** # Return a list of the words in S, using sep as the delimiter string.
+- **S.split(sep=None, maxsplit=-1) -> list of strings** # Return a list of the words in S, using sep as the delimiter string.
 
 Ex:
 ```python
@@ -164,7 +165,7 @@ Result:
 ShahinShahr
 ```
 
-### List:
+## List:
 ```python
 l = [1, 'Salam', 2.03] # list variables are editable
 print(l[1]) # return the second item (index is from zero!)
@@ -188,13 +189,13 @@ Result:
 3
 ```
 
-#### Indexing and Slicing
+### Indexing and Slicing
 - L[1]
 - L[-1]
 - L[1:]
 - L[:1]
 
-#### methods
+### methods
 - **L.append(object) -> None** -- append object to end
 
 Ex:
@@ -215,7 +216,7 @@ Result:
 - **L.reverse()** -- reverse *IN PLACE*
 - **L.sort(key=None, reverse=False) -> None** -- stable sort *IN PLACE*
 
-### Tuple:
+## Tuple:
 ```python
 t = (1, 'Salam', 2.03) # tuple variables are read-only
 t[2] = 2 # TypeError: 'tuple' object does not support item assignment
@@ -231,7 +232,7 @@ TypeError                                 Traceback (most recent call last)
 TypeError: 'tuple' object does not support item assignment
 ```
 
-### Dictionary:
+## Dictionary:
 ```python
 d = {'Name': 'Ali', 'Code':1, 'Dept': 'Eng'}
 d['test'] = 'test' # add a new key: value to the dictionary
@@ -602,7 +603,7 @@ Result:
 4 o
 ```
 
-# - Date & Times
+# - Date and Times
 ```python
 import time
 ```
@@ -897,5 +898,5 @@ plt.show()
 
 **Thanks**
 
-Author: Farokh Karimi  
+Author: Farrokh Karimi  
 Contact: [LinkedIn](https://www.linkedin.com/in/farrokhkarimi), [Instagram](https://www.instagram.com/farrokhkarimi)
